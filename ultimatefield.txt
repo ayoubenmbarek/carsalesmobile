@@ -1,0 +1,38 @@
+#Valves_Ports_per_Cylinder = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[1].get('Items')[7].get('Value')
+                                #power_engine = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[1].get('Items')[10].get('Value')
+                                #Power_to_Weight_Ratio = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[1].get('Items')[12].get('Value')
+                                #Acceleration_0_100km_h = Power_to_Weight_Ratio = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[1].get('Items')[13].get('Value')
+                                #fuel_capacity = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[3].get('Items')[1].get('Value')
+                                #Fuel_Consumption_Combined = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[3].get('Items')[5].get('Value')
+                                #Air_Pollution_Rating = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[3].get('Items')[13].get('Value')
+Badge = jsonresponse.get('Sections')[2].get('Tabs')[2].get('Sections')[0].get('Groups')[0].get('Sections')[8].get('Items')[6].get('Value')# EXAMPLE SELESPEED
+
+#immat_expiry = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[5].get('Value')
+                        #drive_type = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[8].get('Value') #example Front Wheel Drive
+                        #Release_Date = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[9].get('Value')#The date this model was first available for purchase.
+                        #date_fabrication = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[10].get('Value')
+                        #model_year = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[11].get('Value')#The manufacturer’s marketing year for this model
+                        #RW_Certificate = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[13].get('Value')
+                        #Fuel_Economy_Combined = jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[14].get('Value')
+
+
+#try:
+                               # date_purchase =  jsonresponse.get('Sections')[2].get('Tabs')[0].get('Sections')[1].get('Items')[9].get('Value')
+                                #cc = date_purchase.split(' ')
+                               # item['MOIS'] =  cc[0]#The date this model was first available for purchase
+                        #except:
+                               # pass
+#item['No_VEHICULE'] =  ''
+                        #item['No_CHASSIS'] = ''
+                        #item['EMAIL'] =  ''
+                        #item['GARAGE_LICENCE'] =  ''
+                        #item['DEPARTEMENT'] =
+#myItem['VILLE'] =  ''
+                        #myItem['CP'] =  ''
+
+
+#def start_requests(self):
+	       # for i in range(1,3795):#3794,
+	              #  base_url = 'https://carsales.mobi/mobiapi/carsales/v2/stock/listing?p=Service.Carsales.&pg='+str(i)+'&sb=MakeModel&ni=60'
+	                #url = base_url + str(i*60)
+	                #yield scrapy.Request(base_url, callback = self.parse)

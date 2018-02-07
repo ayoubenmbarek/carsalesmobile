@@ -1,0 +1,7 @@
+carsalesmobile/*.csv                                                                                                                                                    
+carsalesmobile/*.log                                                                                                                                                
+.scrapy                                                                                                                                                              
+carsalesmobile/node_modules                                                                                                                                             
+carsalesmobile/*.CSV* 
+*.csv*
+*.log*

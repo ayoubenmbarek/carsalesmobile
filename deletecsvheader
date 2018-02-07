@@ -1,0 +1,2 @@
+cut -d ';' -f27 --complement newoutfile17.csv > kk.csv
+
