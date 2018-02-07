@@ -1,4 +1,0 @@
-comentaire pour le code de Mohamed Ben Thabet:
-Il a bien fait les étapes pour extraire les données d'une seule page(parcourir les urls de la page principale apres extraire les données de ses urls), sauf que il n'a pas bien mis le bon chemin pour extraire les données souhaitées(marque), comme montre son code il sait les notions de base et il a bien structuré son code et le plus important il n'a pas mis des choses parachuté.
-En fin les outils qu'il a utilisé fonctionne bien pour l'extraction de quelques données, ça sera un plus s'il a des connaissances sur le framework Scrapy qu'on l'utilise pour nos projets pour l'extraction des milliers des données.Il ne lui prend pas beaucoup de temps s'il est doué et motivé.
-je le note 6.5/10.
